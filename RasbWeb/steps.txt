@@ -1,0 +1,30 @@
+Find Ip adress of Pi: ifconfig  
+Replace it where I see 192.168.18.105
+
+Install Node JS
+    -sudo apt update
+    -sudo apt upgrade
+    -sudo apt dist-upgrade
+    uname -m
+    "armv71"
+
+    if not using this, download the 
+
+    cd ~/Downloads
+    wget https://node.js.org/dist/latest-v11.x/
+    ls -l
+    tar -xvf "file"
+    ls -l
+    copy files to usr/local irectory sudo cp -R * /usr/local/
+    node -v
+    npm -v
+    mkdir ~/webserver/
+    cd ~/webserver
+    npm init
+    npm install socket.io --save
+    sudo apt update
+    sudo apt install libcap2-bin
+    sudo setcap cap_net_bind_service=+ep/usr/local/bin/node
+    
+
+
