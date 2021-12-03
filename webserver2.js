@@ -6,11 +6,11 @@ var io = require('socket.io','net')(http) //require socket.io module and pass th
 var Gpio = require('onoff').Gpio; //include onoff to interact with the GPIO
 
 
-var PIN18 = new Gpio(18, 'out');
-var PIN16 = new Gpio(16, 'out');
-var PIN22 = new Gpio(22, 'out');
-var PIN15 = new Gpio(15, 'out');
-var PIN13 = new Gpio(13, 'out');
+var PIN18 = new Gpio(24, 'out');
+var PIN16 = new Gpio(23, 'out');
+var PIN22 = new Gpio(25, 'out');
+var PIN15 = new Gpio(22, 'out');
+var PIN13 = new Gpio(27, 'out');
 
 
 
