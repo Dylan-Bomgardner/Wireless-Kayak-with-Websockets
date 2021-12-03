@@ -158,7 +158,7 @@ io.sockets.on('connection', function (socket) {// WebSocket Connection
     socket.emit('GPIO21', GPIO15val);
     socket.emit('GPIO16', GPIO13val);
     
-    // this gets called whenever client presses GPIO26 toggle light button
+    // this gets called whenever client presses GPIO26 toggle light button STOP
     socket.on('GPIO26T', function(data) { 
 
         PIN16.writeSync(off); //turn LED on or off
